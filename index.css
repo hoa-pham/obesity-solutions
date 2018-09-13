@@ -1,15 +1,11 @@
-h1,
-h2,
-h3 {
-  margin: 0;
-  padding: 0;
-  font-family: "Raleway", sans-serif;
+body {
+  background-color: grey;
 }
 
 #the_rapper {
   overflow: hidden;
   margin: 4em auto;
-  background: black url(images/bg02.png) repeat;
+  background: black;
 }
 
 #the_logo h1 {
@@ -42,17 +38,10 @@ h3 {
   text-transform: uppercase;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
   text-align: center;
-  font-size: 1.2;
   font-weight: 200;
   font-family: "Raleway", sans-serif;
   color: #666666;
   border: none;
-}
-
-#showtime a:hover,
-#showtime .current_page_item a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 #showtime .current_page_item a {
@@ -63,23 +52,6 @@ h3 {
   border-left: none;
 }
 
-#end {
-  overflow: hidden;
-  height: 26em;
-  padding-top: 4em;
-  padding-left: 50px;
-  background: url("arnold3.jpg") no-repeat right bottom;
-  color: #6a6a6a;
-}
-
-#end .content {
-  width: 400px;
-}
-
-#end .content p {
-  font-size: 15px;
-}
-
 #end h2 {
   display: block;
   padding-bottom: 0.2em;
@@ -88,6 +60,7 @@ h3 {
   font-size: 3em;
   font-weight: 600;
   color: #fff;
+  padding-left: 200px;
 }
 
 #end span {
@@ -98,9 +71,12 @@ h3 {
   font-size: 1.8em;
   font-weight: 200;
   color: #e94730;
+  padding-left: 420px;
+  margin-top: 50px;
 }
 
 .button-style {
+  font-size: 20px;
   display: inline-block;
   margin-top: 20px;
   padding: 7px 20px;
@@ -110,4 +86,5 @@ h3 {
   text-transform: uppercase;
   color: #ffffff;
   background-color: orange;
+  margin-left: 490px;
 }
